@@ -232,7 +232,7 @@ searchSites[133] = ["Street Ranger","Street Ranger","https://bangbros.com","http
 searchSites[134] = ["Tugjobs","Tugjobs","https://bangbros.com","https://bangbros.com/search/"]
 searchSites[135] = ["Working Latinas","Working Latinas","https://bangbros.com","https://bangbros.com/search/"]
 searchSites[136] = ["Tushy","Tushy","https://www.tushy.com","https://www.tushy.com/search?q="]
-searchSites[137] = ["Reality Kings","Reality Kings", "https://www.realitykings.com", "https://www.realitykings.com/scene/"]
+searchSites[137] = ["Reality Kings","Kings", "https://www.realitykings.com", "https://www.realitykings.com/scene/"]
 searchSites[138] = ["40 Inch Plus", "https://www.realitykings.com", "https://www.realitykings.com/scene/"]
 searchSites[139] = ["8th Street Latinas","8th Street Latinas", "https://www.realitykings.com", "https://www.realitykings.com/scene/"]
 searchSites[140] = ["Bad Tow Truck","Bad Tow Truck", "https://www.realitykings.com", "https://www.realitykings.com/scene/"]
@@ -889,6 +889,7 @@ searchSites[790] = ["BCM","BCM.XXX","https://www.pimp.xxx","https://pimp.xxx/sea
 searchSites[791] = ["Petite","Petite.XXX","https://www.pimp.xxx","https://pimp.xxx/search.php?query="]
 searchSites[792] = ["Family","Family.XXX","https://www.pimp.xxx","https://pimp.xxx/search.php?query="]
 searchSites[793] = ["Wicked","Wicked Pictures","https://www.wicked.com","https://wicked.com/en/movie/"]
+searchSites[794] = ["Look At Her Now","LAHN", "https://www.lookathernow.com", "https://www.lookathernow.com/scene/"]
 
 
 def getSearchBaseURL(siteID):
