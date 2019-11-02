@@ -1055,6 +1055,13 @@ class PhoenixAdultAgent(Agent.Movies):
                 if searchSiteID == 9999 or searchSiteID == 793:
                     results = PAsearchSites.siteWicked.search(results,encodedTitle,title,searchTitle,siteNum,lang,searchByDateActor,searchDate, searchSiteID)
 
+            ###############
+            ## Look At Her Now
+            ###############
+            if siteNum == 794:
+                if searchSiteID == 9999 or searchSiteID == 794:
+                    results = PAsearchSites.siteLookAtHerNow.search(results,encodedTitle,title,searchTitle,siteNum,lang,searchByDateActor,searchDate, searchSiteID)                    
+
             siteNum += 1
 
         results.Sort('score', descending=True)
@@ -1895,6 +1902,15 @@ class PhoenixAdultAgent(Agent.Movies):
         if siteID == 793:
             metadata = PAsearchSites.siteWicked.update(metadata, siteID, movieGenres, movieActors)
 
+        ##############################################################
+        ##                                                          ##
+        ##   Look At Her Now                                        ##
+        ##                                                          ##
+        ##############################################################
+        if siteID == 794:
+            metadata = PAsearchSites.siteLookAtHerNow.update(metadata,siteID,movieGenres,movieActors)
+            
+            
         ##############################################################
         ## Cleanup Genres and Add
         Log("Genres")
